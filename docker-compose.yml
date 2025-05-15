@@ -1,0 +1,7 @@
+version: '3'
+services:
+  socket-server:
+    build: .
+    ports:
+      - "5090:5090"
+    restart: unless-stopped
